@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- metadata goes here -->
+	<meta charset="utf-8">
+	<meta name="author" content="Marc Turner">
+	<meta name="description" content="This website represents the final project for ">
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="script.js"></script>
+	
+	<title>Petstore.com</title>
+</head>
+<body>
+<!-- header Content here -->
+	<header>
+		<div id = "topbar">
+                    <a href="index.html">
+                       <img id = "logo" src="images/petStufflogo.jpg"> 
+                    </a>
+			<div id = "search-div" class = "topbar-section">
+				<div id = "search-text">
+                                    <form method="post" action="LoginServlet">
+                                        <input type="text" name="srchbox"/>
+                                        <input type="submit" name="srchbtn" value="Search"/>
+                                    </form>
+				</div>
+			</div>
+			<div id = "topbarnav-right">
+				<span id = "topnavright-text">
+					<a href = "login.jsp">Log In/Sign Up</a> 
+					|
+					<a href = "account.html">My Account</a>
+					| 
+					<a href = "shopping_cart.jsp">Cart</a>
+				</span>
+			</div>
+		</div>
+		
+		<div id = "secondnavbar">
+			<div id = "secondnavbar-main">
+				<div id = "tagline">
+					<span id="tagline-text">ANYTHING FOR ALL YOUR PETS...as long as they're dogs and cats</span>
+				</div>
+				<div id = "secondnavbar-right">
+					<span id = "secondnavbar-text">
+					<a href = "products.jsp">Products</a>
+					| 
+					<a href = "FAQ.html">Help/FAQ</a> 
+					| 
+					<a href = "contact.html">Contact</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</header>
+<!--header content end-->
+
+<!--main body content start -->
+	<main>
+		<div id = "main_wrapper">
+
+	<!--YOUR CONTENT HERE START-->
+			<div id="productDetail_maincontent">
+				<p class = "page_header">Product Detail</p>
+				<div id = "productDetailDiv">
+					<div id = "productDetail_image">
+						<img src = "images/catfood.jpg">
+					</div>
+					<div id = "productDetail_content">
+						<h1>Cat Food:</h1>
+						<p>Treat your Cat to a delicious meal with our new Cat Food!
+								The new Cat Food features a recipe filled with real Salmon and vegetables.
+								Our Cat Food features no artificial chemicals and all natural preservatives keeping your Cat happy and healthy.</p>
+						<p id = "detailPrice">$8.99</p>
+						<p id = "InOutOfStock">IN STOCK!!!</p>
+						<form>
+							Quantity:<br>
+							<input type = "number" name = "quantity"><br><br>
+							<input type="submit" value = "add to cart">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id = "indexTop_bannerDiv">
+					<img src = "images/indextopbanner.jpg">
+			</div>
+	<!--YOUR CONTENT HERE END-->
+
+        </div>
+	</main>
+<!--main body content end-->
+
+<!--footer content start-->
+	<footer>
+		<div id="footer-topline">
+			<div id = "footertopline-div">
+				<span id = "footertopline-text">CONTACT OUR PRODUCT SPECIALISTS: 1-800-123-1234</span>
+			</div>
+		</div>
+		<div id="copyright">
+			<p>©Copyright 2050 by nobody. All rights reversed.</p>
+		</div>
+	</footer>
+<!--footer content end-->
+	
+	
+</body>
+</html>
